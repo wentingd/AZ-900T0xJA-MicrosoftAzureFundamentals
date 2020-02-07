@@ -2,7 +2,7 @@
 
 - **[チュートリアルへのリンク (HTML 形式)](https://microsoftlearning.github.io/AZ-900T0x-MicrosoftAzureFundamentals/)**
 - **[最新のチュートリアルをダウンロードする (Word 形式)](../../releases/latest)**
-- **あなたは MCT ですか。** - [MCT 向け GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください
+- **あなたは MCT ですか。** - [MCT 向け GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide-JA)をご覧ください
 - **ラボの手順を手動でビルドする必要がありますか。** - 手順は、[MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) リポジトリで利用可能です
 
 ## 実行内容
