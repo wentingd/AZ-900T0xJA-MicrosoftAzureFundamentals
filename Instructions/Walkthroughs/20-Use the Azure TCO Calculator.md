@@ -16,7 +16,7 @@ wts:
 
 このタスクでは、計算ツールにインフラストラクチャ情報を追加します。 
 
-1. ブラウザで、[総保有コスト (TCO) 計算](https://azure.microsoft.com/ja-jp/pricing/tco/calculator/)ツールの Web ページに移動します。
+1. ブラウザで、[総保有コスト (TCO) 計算](https://azure.microsoft.com/ja-jp/pricing/tco/calculator/) ツールの Web ページに移動します。
 
 2. オンプレミス サーバー インフラストラクチャの詳細を追加するには、「**ワークロードの定義**」 ペインで 「**+ サーバー ワークロードの追加**」 を選択 します。
 
