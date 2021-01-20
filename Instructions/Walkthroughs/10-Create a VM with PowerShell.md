@@ -1,13 +1,13 @@
 ﻿---
 wts:
-    title: '10 - PowerShell を使用して VM を作成する'
-    module: 'モジュール 02 - Azure のコア サービス'
+    title: '10 - PowerShell を使用して VM を作成する (10 分)'
+    module: 'モジュール 03: コア ソリューションおよび管理ツールに関する説明'
 ---
 # 10 - PowerShell を使用して VM を作成する
 
 このチュートリアルでは、Cloud Shell を構成し、Azure PowerShell モジュールを使用してリソース グループと仮想マシンを作成し、Azure Advisor の推奨事項を確認します。 
 
-# タスク 1: Cloud Shell を設定する
+# タスク 1: Cloud Shell を設定する (10 分)
 
 このタスクでは、Cloud Shell を構成します。 
 
@@ -19,7 +19,7 @@ wts:
 
 3. 以前に Cloud Shell を使用したことがある場合は、次のタスクに進みます。 
 
-4. **Bash** や **PowerShell** のどちらかを選択するためのプロンプトが表示されたら、**PowerShell** を選択します。 
+4. **Bash** や **PowerShell** のどちらかを選択するためのプロンプトが表示されたら、**PowerShell** を選択します。
 
 5. プロンプトが表示されたら、**ストレージを作成**し、Azure Cloud Shell が初期化されるまで待機します。 
 

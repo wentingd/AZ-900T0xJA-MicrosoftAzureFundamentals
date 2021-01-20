@@ -1,15 +1,13 @@
 ﻿---
 wts:
-    title: '13 - Azure Key Vaultの実装'
-    module: 'モジュール 03 - セキュリティ、プライバシー、コンプライアンス、および信頼性'
+    title: '12 - Azure Key Vaultの実装 (5 分)'
+    module: 'モジュール 04: 一般的なセキュリティ機能およびネットワーク セキュリティ機能に関する説明'
 ---
-# 13 - Azure Key Vaultの実装
+# 12 - Azure Key Vaultの実装
 
 このチュートリアルでは、Azure Key コンテナーを作成し、そのキー コンテナー内にパスワード シークレットを作成し、アプリケーションで使用するための安全に保存された集中管理パスワードを提供します。
 
-推定時間: 10 分
-
-# タスク 1: Azure Key Vault を作成する
+# タスク 1: Azure Key Vault を作成する (5 分)
 
 1. [Azure Portal](https://portal.azure.com) にサインインします。
 
