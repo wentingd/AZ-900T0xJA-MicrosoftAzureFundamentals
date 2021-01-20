@@ -1,4 +1,4 @@
-﻿---
+---
 wts:
     title: '06 - SQL Database を作成する (5 分)'
     module: 'モジュール 02 - Azure のコア サービス (ワークロード)'
