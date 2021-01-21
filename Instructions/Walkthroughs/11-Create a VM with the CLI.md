@@ -1,4 +1,4 @@
----
+﻿---
 wts:
     title: '11 - CLIを使用してVMを作成する (10 分)'
     module: 'モジュール 03: コア ソリューションおよび管理ツールに関する説明'
@@ -27,7 +27,7 @@ wts:
 
 このタスクでは、Azure CLI を使用して、リソース グループと仮想マシンを作成します。  
 
-1. 「Cloud Shell」 ペインの左上のドロップダウン メニューで、「Bash」 が選択されていることを確認します (選択されていない場合は選択してください)。
+1. 「Cloud Shell」 ペインの左上のドロップダウン メニューで、「**Bash**」 が選択されていることを確認します (選択されていない場合は選択してください)。
 
     ![Screenshot of Azure Portal の Azure Cloud Shell のスクリーンショット。ドロップダウン メニューで 「Bash」 が強調表示されています。](../images/1002a.png)
 
@@ -45,7 +45,7 @@ wts:
 
 4. 新しい仮想マシンを作成します。このコマンドはすべて 1 行にする必要があります。また、すべてが1行にある場合は、目盛り (`\`) マークを使用しないでください。 
 
-```cli
+    ```cli
     az vm create \
     --name myVMCLI \
     --resource-group myRGCLI \
@@ -53,9 +53,9 @@ wts:
     --location EastUS \
     --admin-username azureuser \
     --admin-password Pa$$w0rd1234
-```
+    ```
 
-    >**注記**: Windows コンピューターでコマンド ラインを使用している場合、バックスラッシュ (`\`) 文字をキャレット (`^`) 文字に置き換えてください。
+    > **注記**: Windows コンピューターでコマンド ラインを使用している場合、バックスラッシュ (`\`) 文字をキャレット (`^`) 文字に置き換えてください。
     
     **注記**: コマンドの完了には 2 ～ 3 分かかります。このコマンドは、仮想マシンと、それに関連するストレージ、ネットワーク、セキュリティ リソースなどのさまざまなリソースを作成します。仮想マシンのデプロイが完了するまで、次の手順に進まないでください。 
 
@@ -76,21 +76,21 @@ wts:
 
 3. 名前、リソース グループ、場所、状態など、仮想マシンに関する情報を取得します。PowerState が **実行されている** ことに注目してください。
 
-```cli
-az vm show --resource-group myRGCLI --name myVMCLI --show-details --output table 
-```
+    ```cli
+    az vm show --resource-group myRGCLI --name myVMCLI --show-details --output table 
+    ```
 
 4. 仮想マシンを停止します。仮想マシンの割り当てが解除されるまで請求が続行されることを示すメッセージに注意してください。 
 
-```cli
-az vm stop --resource-group myRGCLI --name myVMCLI
-```
+    ```cli
+    az vm stop --resource-group myRGCLI --name myVMCLI
+    ```
 
 5. 仮想マシンの状態を確認します。これで、PowerState が **停止されます**。
 
-```cli
-az vm show --resource-group myRGCLI --name myVMCLI --show-details --output table 
-```
+    ```cli
+    az vm show --resource-group myRGCLI --name myVMCLI --show-details --output table 
+    ```
 
 # タスク 4: Azure Advisor の推奨事項を確認する
 

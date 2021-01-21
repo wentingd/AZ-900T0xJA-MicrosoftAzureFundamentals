@@ -1,4 +1,4 @@
----
+﻿---
 wts:
     title: '07 - Azure IoT Hub の実装 (10 分)'
     module: 'モジュール 03: コア ソリューションおよび管理ツールに関する説明'
@@ -61,7 +61,7 @@ wts:
 
 1. Web ブラウザーで、[Raspberry Pi オンライン シミュレーター](https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted) を開きます。 
 
-2. Raspberry Pi シミュレーターについて読んでください。概要ポップアップがある場合は、"**X**" を選択してウィンドウを閉じます。
+2. Raspberry Pi シミュレーターについて読んでください。概要ポップアップがある場合は、「**X**」 を選択してウィンドウを閉じます。
 
 3. コーディング領域の右側で、'const connectionString =' の行を見つけます。DeviceId を変更し、プライマリ接続スティングを使用します。
 

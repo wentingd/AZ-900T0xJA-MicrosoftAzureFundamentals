@@ -1,6 +1,6 @@
----
+﻿---
 wts:
-    title: '20 - Azure 総保有コスト (TCO) 計算ツールを使用する (10 分)'
+    title: '20 - Azure TCO 計算ツールを使用する (10 分)'
     module: 'モジュール 06: Azure Cost Management およびサービス レベル アグリーメントに関する説明'
 ---
 # 20 - Azure TCO 計算ツールを使用する

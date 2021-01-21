@@ -1,4 +1,4 @@
----
+﻿---
 wts:
     title: '22 - サポート リクエストを開く (5 分)'
     module: '現行テストでは使用しない'
@@ -56,4 +56,4 @@ wts:
 
 お疲れさまでした。使用可能なサポート プラン オプションを表示し、新しいサポート リクエストの作成と監視を練習しました。
 
-**注記**: [Azure サポート チケットの作成の詳細については、次を参照してください。](https://azure.microsoft.com/ja-jp/support/create-ticket)
+**注記**: [Azure サポート チケットの作成の](https://azure.microsoft.com/ja-jp/support/create-ticket)詳細については、次を参照してください。
