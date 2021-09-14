@@ -11,9 +11,9 @@ wts:
 
 このタスクでは、Azure QuickStart ギャラリーを参照し、仮想マシンを作成するテンプレートをデプロイします。 
 
-1. ラボ環境内で、ブラウザーで新しいタブを開き、T https://azure.microsoft.com/en-us/resources/templates/?azure-portal=true をアドレス欄に入力してアクセスします。ギャラリーには、人気のあるテンプレートや最近更新されたテンプレートが多数あります。これらのテンプレートを使用すると、一般的なソフトウェア パッケージのインストールを含む、Azure リソースのデプロイを自動化できます。
+1. ラボ環境内で、ブラウザーで新しいタブを開き、`https://azure.microsoft.com/en-us/resources/templates/?azure-portal=true` をアドレス欄に入力してアクセスします。ギャラリーには、人気のあるテンプレートや最近更新されたテンプレートが多数あります。これらのテンプレートを使用すると、一般的なソフトウェア パッケージのインストールを含む、Azure リソースのデプロイを自動化できます。
 
-2. 「Deploy a simple Windows VM」テンプレートを検索して選びます。(見つからない場合はT https://azure.microsoft.com/resources/templates/vm-simple-windows/ でアクセスできます)
+2. 「Deploy a simple Windows VM」テンプレートを検索して選びます。(見つからない場合は `https://azure.microsoft.com/resources/templates/vm-simple-windows/` でアクセスできます)
 
 3. 「**Azure にデプロイ**」 ボタンをクリックします。ブラウザー セッションは自動的に [Azure portal](http://portal.azure.com/) にリダイレクトされます。
 
