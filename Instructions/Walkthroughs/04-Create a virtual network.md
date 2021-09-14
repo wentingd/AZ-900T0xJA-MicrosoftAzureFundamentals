@@ -11,7 +11,7 @@ wts:
 
 このタスクでは、仮想ネットワークを作成します。 
 
-1. Azure portal <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a> にサインインします。
+1. https://portal.azure.com で Azure portal にサインインします。
 
 2. 「**すべてのサービス**」 ブレードで 「**仮想ネットワーク**」 を検索して選択し、 **「+ 追加」、「+ 作成」、「+ 新規」** のいずれかをクリックします。 
 
