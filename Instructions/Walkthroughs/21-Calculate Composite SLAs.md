@@ -1,9 +1,9 @@
----
+﻿---
 wts:
     title: '21 - 複合 SLA の計算 (5分)'
     module: 'モジュール 06: Azure Cost Management およびサービス レベル アグリーメントに関する説明'
 ---
-# 21 - 複合 SLA の計算
+# 21 - 複合 SLA の計算 (5 分)
 
 このチュートリアルでは、Azure サービスの可用性 SLA を決定し、アプリケーション複合 SLA ベースの推定可用性を計算します。
 
@@ -14,7 +14,7 @@ wts:
 + **Application Gateway**: アプリケーション アクセスやスケーリングを管理します。 
 + **Azure SQL Database**: アプリケーション データを格納します。 
 
-# タスク 1: アプリケーションの SLA アップタイム率を決定する (5 分)
+# タスク 1: アプリケーションの SLA アップタイムのパーセンテージ値を決定します。
 
 1. ブラウザーで、「 [Azureサービスの SLA サマリー](https://azure.microsoft.com/ja-jp/support/legal/sla/summary/)」ページに移動します。
 

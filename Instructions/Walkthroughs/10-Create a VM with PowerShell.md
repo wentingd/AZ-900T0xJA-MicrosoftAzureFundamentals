@@ -1,27 +1,33 @@
----
+﻿---
 wts:
     title: '10 - PowerShell を使用して VM を作成する (10 分)'
     module: 'モジュール 03: コア ソリューションおよび管理ツールに関する説明'
 ---
-# 10 - PowerShell を使用して VM を作成する
+# 10 - PowerShell を使用して VM を作成する (10 分)
 
 このチュートリアルでは、Cloud Shell を構成し、Azure PowerShell モジュールを使用してリソース グループと仮想マシンを作成し、Azure Advisor の推奨事項を確認します。 
 
-# タスク 1: Cloud Shell を構成する (10 分)
+# タスク 1: Cloud Shell を設定する 
 
 このタスクでは、Cloud Shell を構成します。 
 
 1. [Azure portal](https://portal.azure.com) にサインインします。
 
-2. Azure portal から、Azure portal の右上にあるアイコンをクリックして、**Azure Cloud Shell** を開きます。
+2. Azure portal から、右上にあるアイコンをクリックして、**Azure Cloud Shell** を開きます。
 
     ![Azure Portal Azure Cloud Shell アイコンのスクリーンショット。](../images/1002.png)
 
-3. 以前に Cloud Shell を使用したことがある場合は、次のタスクに進みます。 
+3. **Bash** や **PowerShell** のどちらかを選択するプロンプトが表示されたら、**PowerShell** を選択します。
 
-4. **Bash** や **PowerShell** のどちらかを選択するプロンプトが表示されたら、**PowerShell** を選択します。
+4. **「ストレージにマウントされていない」**ペインで、**「詳細設定を表示」**を選択し、以下の情報を入力します
 
-5. プロンプトが表示されたら **「ストレージの作成」** をクリックし、Azure Cloud Shell が初期化されるまで待機します。 
+    | 設定 | 値 |
+    |  -- | -- |
+    | リソース グループ | **新しいリソース グループの作成** |
+    | ストレージ アカウント (グローバルに一意の名前を使用して新しいアカウントを作成します (例: cloudshellstoragemystorage)) | **cloudshellxxxxxxx** |
+    | ファイル共有 (新規作成) | **shellstorage** |
+
+5. 「**ストレージの作成**」を選択する
 
 # タスク 2: リソース グループと仮想マシンを作成する
 
@@ -29,19 +35,13 @@ wts:
 
 1. Cloud Shell ペインの左上のドロップダウン メニューで、**「PowerShell」** が選択されていることを確認します。
 
-2. PowerShell セッションで、Cloud Shell ウィンドウ内に新しいリソース グループを作成します。 
-
-    ```PowerShell
-    New-AzResourceGroup -Name myRGPS -Location EastUS
-    ```
-
-3. 新しいリソース グループを確認します。 
+2. Powershell ウィンドウで次のコマンドを実行して、新しいリソース グループを確認します。**Enter** キーを押してコマンドを実行します。
 
     ```PowerShell
     Get-AzResourceGroup | Format-Table
     ```
 
-4. 仮想マシンを作成します。プロンプトが表示されたら、ユーザー名 (**azureuser**) とパスワード (**Pa$$w0rd1234**) を入力します。これらは、その仮想マシンのローカル管理者アカウントとして構成されます。最後の行を除いて、各行の最後にティック (`) 文字を含めるようにしてください (1 行にコマンド全体を入力する場合はティック文字を含めないでください)。
+3. 次のコマンドをターミナル ウィンドウに貼り付けて、仮想マシンを作成します。 
 
     ```PowerShell
     New-AzVm `
@@ -53,9 +53,10 @@ wts:
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-** VM がデプロイされるのを待ってから PowerShell を閉じます。
+    
+4. プロンプトが表示されたら、ユーザー名 (**azureuser**) とパスワード (**Pa$$w0rd1234**) を入力します。これらは、その仮想マシンのローカル管理者アカウントとして構成されます。
 
-5. PowerShell セッションの 「Cloud Shell」 ウィンドウを閉じます。
+5. VM が作成されたら、PowerShell セッションの CloudShell ペインを閉じます。
 
 6. Azure portal で、**仮想マシン**を検索し、**myVMPS** が実行されていることを確認します。これには数分かかることがあります。
 
@@ -77,13 +78,14 @@ wts:
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-4. 仮想マシンを停止します。プロンプトが表示されたら、「はい」 を選んでアクションを確認します。 
+4. 次のコマンドを使用して仮想マシンを停止します。 
 
     ```PowerShell
     Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
     ```
+5. プロンプトが表示されたら、「はい」 を選んでアクションを確認します。**成功**ステータスを待ちます。
 
-5. 仮想マシンの状態を確認します。これで、PowerState の **割り当てが解除されます**。ポータルで仮想マシンの状態を確認することもできます。 
+6. 仮想マシンの状態を確認します。これで、PowerState の**割り当てが解除されます**。ポータルで仮想マシンの状態を確認することもできます。CloudShell を閉じます。
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize
