@@ -85,7 +85,7 @@ wts:
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
   
-3. 完了すると、プロンプトに値 **True** と共に**成功**が示されます。インストールを完了するために仮想マシンを再起動する必要はありません。仮想マシンの上部中央にある青いバーの x をクリックして、VM への RDP 接続を閉じます。 
+3. 完了すると、プロンプトに値 **True** と共に**成功**が示されます。インストールを完了するために仮想マシンを再起動する必要はありません。仮想マシンの上部中央にある青いバーの **x** をクリックして、VM への RDP 接続を閉じます。 
 
     ![コマンド Install-WindowsFeature -name Web-Server -IncludeManagementTools が正常に完了し、成功したことを示す出力がある Windows PowerShell コマンド プロンプトのスクリーンショット。](../images/0106.png)
 
