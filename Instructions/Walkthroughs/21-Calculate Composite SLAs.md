@@ -1,4 +1,4 @@
-﻿---
+---
 wts:
     title: '21 - 複合 SLA の計算 (5分)'
     module: 'モジュール 06: Azure Cost Management およびサービス レベル アグリーメントに関する説明'
