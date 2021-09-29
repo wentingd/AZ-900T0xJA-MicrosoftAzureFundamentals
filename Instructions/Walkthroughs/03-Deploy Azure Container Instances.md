@@ -1,4 +1,4 @@
-﻿---
+---
 wts:
     title: '03 - Azure Container Instances をデプロイする (10 分)'
     module: 'モジュール 02 - Azure のコア サービス (ワークロード)'
