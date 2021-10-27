@@ -1,4 +1,4 @@
----
+﻿---
 wts:
     title: '01 - ポータルで仮想マシンを作成する (10 分)'
     module: 'モジュール 02 - Azure のコア サービス (ワークロード)'
@@ -80,7 +80,7 @@ wts:
 
     ![「スタート」 ボタンがクリックされ、管理者として実行された PowerShell が強調表示された仮想マシン デスクトップのスクリーンショット。](../images/0105.png)
 
-2. PowerShell で、次のコマンドを実行して、仮想マシンに **Web サーバー**機能をインストールします。 
+2. PowerShell で、次のコマンドを実行して、仮想マシンに **Web サーバー**機能をインストールします。(コマンドを貼り付け、Enterキーを押してインストールを開始します)。
 
     ```PowerShell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
