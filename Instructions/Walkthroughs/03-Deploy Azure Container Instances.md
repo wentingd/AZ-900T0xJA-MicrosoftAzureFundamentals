@@ -26,7 +26,7 @@ wts:
 	| リージョン | **(米国) 米国東部** |
 	| イメージのソース| **Docker Hub またはその他のレジストリ**|
 	| イメージの種類| **パブリック**|
-	| 画像| **microsoft/aci-helloworld**|
+	| イメージ| **microsoft/aci-helloworld**|
 	| OS の種類| **Linux** |
 	| サイズ| ***既定値のままにします***|
 
