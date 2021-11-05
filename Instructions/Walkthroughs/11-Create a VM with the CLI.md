@@ -11,7 +11,7 @@ wts:
 
 このタスクでは、Cloud Shell を構成してから、Azure CLI を使用して、リソース グループと仮想マシンを作成します。  
 
-1. [Azure portal](https://portal.azure.com) にサインインします。
+1. Azure portal　(`https://portal.azure.com`) にサインインします。
 
 2. Azure portal から、右上にあるアイコンをクリックして、**Azure Cloud Shell** を開きます。
 

@@ -13,7 +13,7 @@ Azure App Service は、実際には 4 つのサービスのコレクション�
 
 このタスクでは、Azure App Service Web App を作成します。 
 
-1. [Azure portal](http://portal.azure.com/) にサインインします。 
+1. Azure portal　(`https://portal.azure.com`) にサインインします。 
 
 2. 「**すべてのサービス**」ブレードで「**App Services**」を検索して選択し、**「+ 追加」、「+ 作成」、「+ 新規」** のいずれかをクリックします。
 

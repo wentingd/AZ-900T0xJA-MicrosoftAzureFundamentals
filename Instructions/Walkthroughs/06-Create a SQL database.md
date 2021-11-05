@@ -12,7 +12,7 @@ wts:
 
 このタスクでは、AdventureWorksLT サンプル データベースに基づいて、SQL データベースを作成します。 
 
-1. Azure portal [**https://portal.azure.com**](https://portal.azure.com) にサインインします。
+1. Azure portal　(`https://portal.azure.com`) にサインインします。
 
 2. 「**すべてのサービス**」ブレードで「**SQL データベース**」を検索して選択し、**「+ 追加」、「+ 作成」、「+ 新規」** のいずれかをクリックします。 
 

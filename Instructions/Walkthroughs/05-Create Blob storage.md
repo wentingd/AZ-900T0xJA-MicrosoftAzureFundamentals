@@ -11,7 +11,7 @@ wts:
 
 このタスクでは、新しいストレージ アカウントを作成します。 
 
-1. Azure portal <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a> にサインインします。
+1. Azure portal　(`https://portal.azure.com`) にサインインします。
 
 2. 「**すべてのサービス**」ブレードで「**ストレージ アカウント**」を検索して選択し、**「+ 追加」、「+ 作成」、「+ 新規」** のいずれかをクリックします。 
 

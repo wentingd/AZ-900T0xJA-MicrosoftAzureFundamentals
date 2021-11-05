@@ -9,7 +9,7 @@ wts:
 
 # タスク 1: Azure Key Vault を作成する 
 
-1. [Azure ポータル](https://portal.azure.com) にサインインします。
+1. Azure portal　(`https://portal.azure.com`) にサインインします。
 
 2. **「すべてのサービス」** ブレードで、**「キー コンテナー」** を検索して選択し、**「+ 追加、+ 新規、+ 作成」** を選択します。
 

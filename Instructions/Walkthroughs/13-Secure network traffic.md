@@ -11,7 +11,7 @@ wts:
 
 このタスクでは、Windows Server 2019 Datacenter 仮想マシンを作成します。 
 
-1. [Azure portal](https://portal.azure.com) にサインインします。
+1. Azure portal　(`https://portal.azure.com`) にサインインします。
 
 2. 「**すべてのサービス**」ブレードで「**仮想マシン**」を検索して選択し、**「+ 追加」、「+ 作成」、「+ 新規」** のいずれかをクリックします。
 

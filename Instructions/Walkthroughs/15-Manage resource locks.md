@@ -12,7 +12,7 @@ wts:
 
 このタスクでは、リソース グループにリソース ロックを追加し、リソース グループの削除をテストします。 
 
-1. [Azure portal](https://portal.azure.com) にサインインします。
+1. Azure portal　(`https://portal.azure.com`) にサインインします。
 
 2. Azure portal で、**myRGLocks** リソース グループに移動します。
 
