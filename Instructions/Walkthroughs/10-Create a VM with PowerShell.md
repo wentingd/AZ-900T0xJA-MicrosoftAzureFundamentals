@@ -11,7 +11,7 @@ wts:
 
 このタスクでは、Cloud Shell を構成します。 
 
-1. [Azure portal](https://portal.azure.com) にサインインします。 **ログイン資格情報は、「リソース」タブ (この「手順」タブのすぐ隣にあります!) にあります。**
+1. Azure portal　(`https://portal.azure.com`) にサインインします。 **ログイン資格情報は、「リソース」タブ (この「手順」タブのすぐ隣にあります!) にあります。**
 2. Azure portal から、右上にあるアイコンをクリックして、**Azure Cloud Shell** を開きます。
 
     ![Azure Portal Azure Cloud Shell アイコンのスクリーンショット。](../images/1002.png)
