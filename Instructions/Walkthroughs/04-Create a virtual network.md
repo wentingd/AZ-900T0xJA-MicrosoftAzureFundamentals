@@ -39,7 +39,7 @@ wts:
    | 設定 | 値 | 
    | --- | --- |
    | サブスクリプション | **提供されている既定値を使用** |
-   | リソース グループ |  **ドロップダウンで既定値を選択** |
+   | リソース グループ |  **ドロップダウンでタスク1−3で作成したものを選択** |
    | 仮想マシン名 | **vm1**|
    | リージョン | **(米国) 米国東部** |
    | イメージ | **Windows Server 2019 Datacenter - Gen1** |
@@ -59,7 +59,7 @@ wts:
 
     | 設定 | 値 |
     | --- | --- |
-    | リソース グループ | **myRGVNet** |
+    | リソース グループ | **ドロップダウンでタスク1−3で作成したものを選択** |
     | 仮想マシン名 |  **vm2** |
     | バーチャル ネットワーク | **vnet1** |
     | パブリック IP | **vm2-ip** |
@@ -83,6 +83,8 @@ wts:
 5. 「**Windows セキュリティ**」 ウィンドウで、ユーザー名 「**azureuser**」 とパスワード 「**Pa$$w0rd1234**」 を入力し、 「**OK**」 をクリックします。
 
 6. サインイン プロセス中に証明書の警告が表示されることがあります。「**はい**」をクリックして、接続を作成してデプロイした VM に接続します。正常に接続されるはずです。ポップアップ表示される Windows Server ウィンドウとダッシュボード ウィンドウを閉じます。青い Windows の背景が表示されます。これで、仮想マシンが作成されました。
+
+    **注意**：新しく作成されたVM（vm1・vm2両方）にて以下の作業をしてWindows Firewallを無効にして下さい：Windows Start menu > Settings > Network and Internet / Privacy & security / Update & Security もしくは「Windows Security」で検索 (OSバージョンによって表記が異なります) > Windows Security > Firewall & network protection　から、Windows Firewallすべて（Public とPrivate両方）OFFにしてください。
 
 7. 「**スタート**」 ボタンをクリックして仮想マシンで PowerShell を開き、検索タイプ **PowerShell** で、**Windows PowerShell** を右クリックして**管理者として実行します**
 
