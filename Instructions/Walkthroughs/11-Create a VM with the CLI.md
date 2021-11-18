@@ -36,7 +36,11 @@ wts:
     ![「Bash」 ドロップダウンが強調表示された Azure Portal Azure Cloud Shell のスクリーンショット。](../images/1002a.png)
 
 
-2. 次のコマンドを入力して、リソース グループを確認します。
+2. 次のコマンドをそれぞれ入力して、リソース グループを作成し、確認します。
+
+    ```cli
+    az group create --location eastus --name myRGCLI
+    ```
 
     ```cli
     az group list --output table

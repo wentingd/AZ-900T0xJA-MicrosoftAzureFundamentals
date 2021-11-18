@@ -84,6 +84,8 @@ wts:
 
 6. サインイン プロセス中に証明書の警告が表示されることがあります。「**はい**」をクリックして、接続を作成してデプロイした VM に接続します。正常に接続されるはずです。ポップアップ表示される Windows Server ウィンドウとダッシュボード ウィンドウを閉じます。青い Windows の背景が表示されます。これで、仮想マシンが作成されました。
 
+注意：新しく作成されたVM（vm1・vm2両方）にて以下の作業をしてWindows Firewallを無効にして下さい：Windows Start menu > Settings > Network and Internet / Privacy & security / Update & Security もしくはWindows Securityと検索 (OSバージョンによって表記が異なります) > Windows Security > Firewall & network protection　から、Windows Firewallすべて（Public とPrivate両方）OFFにしてください。
+
 7. 「**スタート**」 ボタンをクリックして仮想マシンで PowerShell を開き、検索タイプ **PowerShell** で、**Windows PowerShell** を右クリックして**管理者として実行します**
 
 8. Powershell で、次のように入力して vm2 に ping を実行してみます。
